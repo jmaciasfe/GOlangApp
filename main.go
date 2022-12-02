@@ -30,8 +30,8 @@ func main() {
 	http.HandleFunc("/", Index)
 
 	//Creación del servidor
-	fmt.Println("El servidor esta corriendo en puerto 8081")
-	fmt.Println("Run server: http://localhost:8081")
-	http.ListenAndServe("localhost:8081", nil)
+	fmt.Println("El servidor esta corriendo en puerto 8000")
+	fmt.Println("Run server: http://localhost:8000")
+	http.ListenAndServe("localhost:8000", nil)
 
 }
