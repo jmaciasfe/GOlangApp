@@ -1,6 +1,6 @@
 FROM golang:1.19-alpine
 
-WORKDIR /app
+WORKDIR /GOlangApp
 
 COPY go.mod ./
 RUN go mod download
