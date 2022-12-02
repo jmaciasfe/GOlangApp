@@ -30,7 +30,6 @@ func main() {
 	http.HandleFunc("/", Index)
 
 	//Creación del servidor
-	fmt.Println("Prueba Jenkins")
 	fmt.Println("El servidor esta corriendo en puerto 8000")
 	fmt.Println("Run server: http://localhost:8000")
 	http.ListenAndServe("localhost:8000", nil)
