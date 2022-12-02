@@ -9,6 +9,6 @@ COPY *.go ./
 
 RUN go build -o /appgolang
 
-EXPOSE 8081
+EXPOSE 8000:8000
 
 CMD [ "/appgolang" ]
